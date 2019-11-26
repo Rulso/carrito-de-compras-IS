@@ -1,0 +1,53 @@
+/**{
+    border: 1px solid black;
+}*/
+#background-logo{
+    background-image: url('../img/gits.jpg');
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+#imagenes-carrusel{
+    background-image: url('../img/gits.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*img{
+    width: 75%!important;
+    height: 75%!important;
+}*/
+a{
+    text-decoration: none!important;
+}
+.espacio-comun>div>div{
+    margin-bottom: 30%;
+}
+.sobre-pos{
+    position: absolute;
+    top: 20%;
+    right: 50%;
+}
+.imagen-producto{
+    width: 280px!important;
+    height: 160px!important;
+}
+.icon-login{
+    width: 150px!important;
+    height: 150px!important;
+}
+.h-pixeles{
+    height: 190px!important;
+}
+.w-pixeles{
+    width: 160px;
+}
+.w-form{
+    width: 200px;
+}
+
+.wh-div{
+    width: 900px!important;
+    height: 900px!important;
+}
+.h-custom{
+    height: 250px!important;
+}
