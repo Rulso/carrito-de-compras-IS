@@ -12,10 +12,10 @@
     <?php include('includes/header.php'); ?>
     <div class="d-flex justify-content-center mt-5 mb-5">
         <div>
-            <form>
+            <form action="usuarios/registrousuarios.php" method="POST" >
                 <div class="form-group">
                     <label for="nombre-registro">Nombre:</label>
-                    <input type="text" class="form-control" name="nombre-registr" id="nombre-registro" placeholder="Nombre">
+                    <input type="text" class="form-control" name="nombre-registro" id="nombre-registro" placeholder="Nombre">
                 </div><!--input-->
                 <div class="form-group">
                     <label for="apellido-registro">Apellido:</label>
@@ -60,6 +60,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
     <script src="js/acciones-generales.js"></script>
-    <script src="js/registro-script.js"></script>
+    <!--<script src="js/registro-script.js"></script>-->
 </body>
 </html>

@@ -1,8 +1,7 @@
 <?php
     //Conectamos a la base de datos
     include("../database/database.php");
-    if(isset($_POST["nombre-registro"]) && isset($_POST["apellido-registro"])
-        && isset($_POST["email-registro"]) && isset($_POST["pass-registro"])){
+    if(isset($_POST)){
         $nombre = $_POST["nombre-registro"];
         $apellidos = $_POST["apellido-registro"];
         $correo = $_POST["email-registro"];
@@ -19,6 +18,9 @@
         }   
     }
     mysqli_close($conexion);
+    
+    header("Location: http://localhost/proyectoISoft/index.php");
+    //header('Location: index.php');
     /*
 	echo'
 		<script>
